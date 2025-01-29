@@ -1,0 +1,4 @@
+#!/bin/sh
+set -uex
+./manage.py migrate
+./manage.py migrate db 0001
